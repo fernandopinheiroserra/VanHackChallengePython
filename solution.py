@@ -8,8 +8,10 @@ from bs4 import BeautifulSoup
 #    In stock   
 #    instock availability
 
+#fonts https://www.youtube.com/watch?v=XVv6mJpFOb0&ab_channel=freeCodeCamp.org
+
+
 html_text = requests.get('http://books.toscrape.com/').text
-#print(html_text)
 soup = BeautifulSoup(html_text, 'lxml')
 
 #product
