@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from tkinter import messagebox
 from tkinter import *
 
 # your task is to write a function to search a mock bookstore website 
